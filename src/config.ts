@@ -9,6 +9,7 @@ export const imgPreviewSuffix = [
     "svg",
     "webp",
     "jfif",
+    "avif",
 ];
 export let msDocPreviewSuffix = [
     "ppt",
