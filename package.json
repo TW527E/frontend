@@ -1,6 +1,6 @@
 {
-  "name": "cloudreve-frontend-plus",
-  "version": "3.8.3+1.1",
+  "name": "cloudreve-frontend-tw527e-edition",
+  "version": "3.8.3",
   "private": true,
   "dependencies": {
     "@babel/core": "7.6.0",
@@ -113,8 +113,7 @@
     "webpack": "4.41.0",
     "webpack-dev-server": "3.11.3",
     "webpack-manifest-plugin": "2.1.1",
-    "workbox-webpack-plugin": "4.3.1",
-    "yarn": "^1.22.4"
+    "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
     "start": "node scripts/start.js",

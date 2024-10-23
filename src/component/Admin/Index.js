@@ -335,8 +335,14 @@ export default function Index() {
                             </Typography>
                             <Typography className={classes.version}>
                                 {version.backend}{" "}
+                                {version.is_pro === "true" && (
+                                    <Chip size="small" label="Pro" />
+                                )}
                                 {version.is_plus === "true" && (
                                     <Chip size="small" label="Plus" />
+                                )}
+                                {version.is_tw527e === "true" && (
+                                    <Chip size="small" label="TW527E-Edition" />
                                 )}
                             </Typography>
                         </div>
