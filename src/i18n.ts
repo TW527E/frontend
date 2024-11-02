@@ -47,16 +47,20 @@ i18n.on("languageChanged", (lng) => {
 
 export const languages = [
     {
-        code: "en-US",
-        displayName: "English",
-    },
-    {
         code: "zh-CN",
         displayName: "简体中文",
     },
     {
         code: "zh-TW",
         displayName: "繁體中文",
+    },
+    {
+        code: "en-US",
+        displayName: "English",
+    },
+    {
+        code: "it-IT",
+        displayName: "italiano",
     },
 ];
 
